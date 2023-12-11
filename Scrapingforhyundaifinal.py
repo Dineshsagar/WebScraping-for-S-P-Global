@@ -16,7 +16,7 @@
 # Understand the problem --> design a workflow --> install required libraries and dependencies --> Selenium to open the website
 # and crawl thorough it --> Find the a tags containing the download option --> Selenium clicks on download. --> pdf files are
 # saved in local machine --> Importing libraries for pdf processing --> reading the pdf files and accumulating data and 
-# saving the output to the file. END
+# saving the output to the file. Peform testing and then END>
 
 ##### Importing libraries######
 import selenium
