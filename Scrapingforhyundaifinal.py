@@ -12,7 +12,7 @@
 #Project - Build a webscraping crawler that can open the website and download all the PDF files and extract data from it.#
 
 # Detailed Pipeline of my approach #
-
+ 
 # Understand the problem --> design a workflow --> install required libraries and dependencies --> Selenium to open the website
 # and crawl thorough it --> Find the a tags containing the download option --> Selenium clicks on download. --> pdf files are
 # saved in local machine --> Importing libraries for pdf processing --> reading the pdf files and accumulating data and 
