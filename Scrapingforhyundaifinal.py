@@ -1,5 +1,44 @@
 
 # Dinesh Sagar #######
+"""
+Web Scraping Crawler for Hyundai PDF Downloads and Data Extraction
+This module implements an automated web scraper that:
+1. Opens the Hyundai brochure download website using Selenium
+2. Identifies and downloads all available PDF files
+3. Extracts text content from downloaded PDFs
+4. Saves extracted data to a text file
+Author: Dinesh Sagar
+Email: dineshsagar66@gmail.com
+Contact: 9000088487
+Date: 07/24/23
+Pipeline:
+    - Problem Understanding
+    - Workflow Design
+    - Library Installation
+    - Selenium Web Driver Setup
+    - Website Navigation and PDF Link Detection
+    - Automated PDF Download
+    - PDF Processing and Text Extraction
+    - Data Aggregation and File Output
+    - Testing and Completion
+Dependencies:
+    - selenium: Web browser automation
+    - webdriver_manager: Chrome driver management
+    - PyPDF2: PDF file processing
+    - pandas: Data manipulation
+    - easygui: GUI for folder selection
+Key Functions:
+    - User selects download directory via GUI
+    - Chrome driver configured for automatic PDF downloads
+    - Scrapes all anchor tags containing PDF download links
+    - Extracts and processes text from PDF pages
+    - Handles UTF-8 encoding errors
+    - Outputs consolidated text to scrapeddata.txt
+Configuration:
+    - Implicit wait: 10 seconds
+    - Download limit: 10 PDFs
+    - PDF prompt: Disabled (auto-download)
+"""
 #dineshsagar66@gmail.com###
 #9000088487#
 #07/24/23######## -- Dummy Commit
